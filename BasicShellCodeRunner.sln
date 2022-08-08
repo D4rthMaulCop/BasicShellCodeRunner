@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicShellCodeRunner", "BasicShellCodeRunner\BasicShellCodeRunner.csproj", "{EABAA048-3839-4685-AB28-2CB8C04C69B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Debug|x64.ActiveCfg = Debug|x64
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Debug|x64.Build.0 = Debug|x64
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Release|x64.ActiveCfg = Release|x64
+		{EABAA048-3839-4685-AB28-2CB8C04C69B2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FB2D877-19A0-4500-8F0D-F4A2FC014973}
+	EndGlobalSection
+EndGlobal

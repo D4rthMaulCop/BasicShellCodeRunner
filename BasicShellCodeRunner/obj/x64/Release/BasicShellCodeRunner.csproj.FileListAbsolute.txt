@@ -1,0 +1,7 @@
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\bin\x64\Release\BasicShellCodeRunner.exe.config
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\bin\x64\Release\BasicShellCodeRunner.exe
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\bin\x64\Release\BasicShellCodeRunner.pdb
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\obj\x64\Release\BasicShellCodeRunner.csproj.AssemblyReference.cache
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\obj\x64\Release\BasicShellCodeRunner.csproj.CoreCompileInputs.cache
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\obj\x64\Release\BasicShellCodeRunner.exe
+D:\SecToolDev\BasicShellCodeRunner\BasicShellCodeRunner\obj\x64\Release\BasicShellCodeRunner.pdb
