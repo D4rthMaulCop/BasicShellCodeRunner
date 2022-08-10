@@ -89,7 +89,7 @@ namespace ShellCodeRunner
             Console.WriteLine("[*] Calling CreateThread() to run shellcode...");
             hThread = CreateThread(0, 0, funcAddr, pinfo, 0, ref threadId);
 
-            // wait for object to be in a signaled state (aka the resource is ready to use) to continue execution
+            // wait for object to be in a signaled state (aka the resource is ready to use) to finish execution
             WaitForSingleObject(hThread, 0xFFFFFFFF);
 
             return;
